@@ -63,7 +63,7 @@ System.out.println("Se encontro el comentario: " + comen);
 
 <comentario> [^"-->"]   {
 
-                                    System.out.println("Linea de comentario hallada"  + yytext() );
+                                    System.out.println("Linea de comentario hallada "  + yytext() );
                                     comen +=yytext();
 
                                     }

@@ -720,7 +720,7 @@ System.out.println("Se encontro el comentario: " + comen);
             // fall through
           case 13: break;
           case 6:
-            { System.out.println("Linea de comentario hallada"  + yytext() );
+            { System.out.println("Linea de comentario hallada "  + yytext() );
                                     comen +=yytext();
             }
             // fall through
